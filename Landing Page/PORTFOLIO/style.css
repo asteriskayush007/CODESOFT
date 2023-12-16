@@ -1,0 +1,271 @@
+@font-face {
+    font-family: canopee;
+    src: url(./Canopee.ttf);
+}
+@font-face {
+    font-family: domaine;
+    src: url(./DomaineDispCondMedium.ttf);
+}
+@font-face {
+    font-family: editorial;
+    src: url(./EditorialNew-Medium.ttf);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    background-color: #222;
+    overflow-x: hidden;
+}
+#page1{
+    height: 130vh;
+    width: 100vw;
+    background-color: #c3bbb2;
+    position: relative;
+    overflow: hidden;
+}
+#nav{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    border-bottom: 1px solid #2222;
+    position: relative;
+}
+#nav img{
+    height: 30px;
+    width: 30%;
+}
+#nav h5{
+    font-size: 20px;
+    font-weight: 100;
+    width: 30%;
+}
+#nav i{
+    font-size: 40px;
+    width: 30%;
+    text-align: right;
+}
+#elems{
+    /* background-color: red; */
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+#elem1{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+    
+}
+#elem2{
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(18, 167, 43); */
+    border-left: 2px solid #2222;
+    border-right: 2px solid #2222;
+    padding: 20px 60px;
+    text-align: center;
+}
+#elem3{
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(229, 255, 0); */
+}
+#elem1 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.4s;
+}
+#elem3 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+#image-div:hover img{
+    scale: 1.2;
+    
+}
+#elem1 h4{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+    
+}
+#elem1 h4 span{
+    background-color: #b43b12;
+    color: #c3bbb2;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 4px;
+}
+#elem1 p{
+    font-size: 20px;
+    font-family: domaine;
+    font-weight: 100;
+    color: #4b4a4a;
+}
+#elem3 h4{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+    
+}
+#elem3 h4 span{
+    background-color: #b43b12;
+    color: #c3bbb2;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 4px;
+}
+#elem3 p{
+    font-size: 20px;
+    font-family: domaine;
+    font-weight: 100;
+    color: #4b4a4a;
+}
+#elem2 h2{
+    font-family: canopee;
+    font-size: 60px;
+    font-weight: 100;
+    
+}
+#elem2 h3{
+    font-family: domaine;
+    font-size: 40px;
+    font-weight: 90;
+    color: #4b4a4a;
+    margin: 10px 0;
+    
+}
+#elem2 h6{
+    font-family: domaine;
+    font-size: 15px;
+    font-weight: 90;
+    color: #4b4a4a;
+    
+}
+#elem2 h6 span{
+    background-color: #b43b12;
+    color: #c3bbb2;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 4px;
+}
+#page1 h1{
+    font-size: 340px;
+    font-family: canopee;
+    letter-spacing: -5px;
+    font-weight: 100;
+    background-color: #1C1B19;
+    color: #c3bbb2;
+    line-height: 300px;
+    width: 94%;
+    margin-left: 3%;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: #c3bbb2;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 40px;
+    display: flex;
+}
+#page2-left{
+    height: 100%;
+    width: 35%;
+    background-color: #c3bbb2;
+    padding-right: 40px;
+    padding-top: -6vh;
+    border-right: 1px solid #222;
+
+}
+#page2-left h2{
+    font-size: 70px;
+    font-family: canopee;
+    font-weight: 100;
+    
+    line-height: 100px;
+}
+#page2-left h2 span{
+    font-size: 150px;
+    font-weight: 900;
+    
+}
+#page2-left img{
+    height: 45%;
+    width: 100%;
+    object-fit: cover;
+}
+#page2-left p{
+    font-size: 25px;
+    font-family: domaine;
+    color: #4b4a4a;
+    margin-top: 20px;
+}
+#page2-right{
+    height: 100%;
+    width: 60%;
+    padding-right: 0 60px;
+
+}
+#page2-right img{
+    height: 55%;
+    width: 100%;
+    object-fit: cover;
+}
+#page2-right h1{
+    font-family: canopee;
+    font-size: 80px;
+}
+#page3{
+    height: 50vh;
+    position: relative;
+    background-color: #c3bbb2;
+}
+#page3 h1{
+    font-size: 250px;
+    font-weight: 100;
+    font-family: canopee;
+    background-color: #1C1B19;
+    width: fit-content;
+    letter-spacing: -10px;
+    color: #c3bbb2;
+    margin-left: 2%;
+    padding: 0 20px;
+    line-height: 280px;
+
+}
+#page3 img{
+    height: 300px;
+    position: absolute;
+    top: 0;
+    right: 3%;
+
+}
